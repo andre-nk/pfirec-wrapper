@@ -1,0 +1,103 @@
+# Feature Importance Analysis Summary
+
+## Top 20 Most Important Features
+
+95. rptcmt: 2204.198403
+103. rpt_max_stars_commit: 2127.658308
+64. LengthOfDescription: 2102.464386
+86. pro_gfi_ratio: 1750.141133
+5. clsiss: 1668.976504
+96. rptiss: 1662.641543
+81. issuesen: 1478.635498
+82. coleman_liau_index: 1428.492418
+92. openissratio: 1385.787910
+97. rptpr: 1377.413341
+99. rptallcmt: 1298.970561
+91. openiss: 1222.297376
+108. rpt_gfi_ratio: 1212.755855
+75. gfilabelnum: 1150.004985
+84. flesch_kincaid_grade: 1076.397371
+43. commentissuecos_sim_mean: 1034.307430
+90. pro_star: 983.608840
+98. rptpronum: 952.436894
+88. proclspr: 936.938614
+35. issjaccard_sim_mean: 934.316082
+
+## Feature Group Importance
+
+6. Issue Content: 9478.229973 (10 features)
+8. Repository Background: 9012.087104 (9 features)
+4. Content Similarity: 6229.471975 (12 features)
+1. General OSS Experience: 3358.616664 (6 features)
+5. Domain Similarity: 2479.601092 (8 features)
+7. Issue Labels: 1485.995196 (13 features)
+3. Sentiment: 1191.879269 (4 features)
+2. Activeness: 1111.906494 (9 features)
+
+## Feature Reduction
+
+Original feature count: 122
+Recommended feature count: 61 (50.0%)
+
+Recommended features to keep:
+- rptcmt
+- rpt_max_stars_commit
+- LengthOfDescription
+- pro_gfi_ratio
+- clsiss
+- rptiss
+- issuesen
+- coleman_liau_index
+- openissratio
+- rptpr
+- rptallcmt
+- openiss
+- rpt_gfi_ratio
+- gfilabelnum
+- flesch_kincaid_grade
+- commentissuecos_sim_mean
+- pro_star
+- rptpronum
+- proclspr
+- issjaccard_sim_mean
+- flesch_reading_ease
+- clsallcmt
+- rptalliss
+- procmt
+- automated_readability_index
+- commentissuejaccard_sim_mean
+- cmtcos_mean
+- clspronum
+- commentissuecos_sim
+- pro_gfi_num
+- LengthOfTitle
+- readmecos_sim_mean
+- solvedisscos_mean
+- contributornum
+- rpt_max_stars_issue
+- isscos_mean
+- commentissuejaccard_sim
+- prcos_mean
+- crtclsissnum
+- procos_sim
+- issjaccard_sim
+- solvedissjaccard_sim
+- NumOfUrls
+- prjaccard_sim_mean
+- isscos_sim
+- solvedisscos_sim
+- prcos_sim
+- prjaccard_sim
+- readmecos_sim
+- NumOfCode
+- cmtjaccard_sim_mean
+- clsprsenmean
+- procos_mean
+- solvedissjaccard_sim_mean
+- clsissuesenmedian
+- cmtcos_sim
+- cmtjaccard_sim
+- projaccard_mean
+- clsissuesenmean
+- clsonemonth_cmt
+- clsprsenmedian

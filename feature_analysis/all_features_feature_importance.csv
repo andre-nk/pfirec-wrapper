@@ -1,0 +1,123 @@
+Feature,Importance,Definition
+rptcmt,2204.1984033584595,Reporter's number of commits
+rpt_max_stars_commit,2127.658308029175,Maximum stars of repositories where the reporter made commits
+LengthOfDescription,2102.4643862247467,Length of the issue description
+pro_gfi_ratio,1750.141132593155,Ratio of good first issues in the project
+clsiss,1668.9765043258667,Number of issues opened by the candidate
+rptiss,1662.6415433883667,Number of issues opened by the reporter
+issuesen,1478.6354975700378,Sentiment score of the issue
+coleman_liau_index,1428.4924182891846,Readability index based on Coleman-Liau formula
+openissratio,1385.7879095077515,Ratio of open issues in the project
+rptpr,1377.4133410453796,Number of pull requests submitted by the reporter
+rptallcmt,1298.9705605506897,Total number of commits made by the reporter across all projects
+openiss,1222.297375679016,Number of open issues in the project
+rpt_gfi_ratio,1212.7558546066284,Ratio of good first issues reported by the reporter
+gfilabelnum,1150.0049848556519,Number of "good first issue" labels
+flesch_kincaid_grade,1076.3973712921143,Readability score based on Flesch-Kincaid grade formula
+commentissuecos_sim_mean,1034.3074297904968,Mean cosine similarity between candidate's comments and issues
+pro_star,983.6088404655457,Number of stars of the project
+rptpronum,952.4368944168091,Number of projects the reporter contributed to
+proclspr,936.9386143684387,Number of pull requests made by the candidate to the project
+issjaccard_sim_mean,934.3160820007324,Mean Jaccard similarity between candidate's issues and the current issue
+flesch_reading_ease,917.1443071365356,Flesch reading ease score for readability
+clsallcmt,843.2895474433899,Total number of commits made by the candidate across all projects
+rptalliss,809.9861044883728,Total number of issues opened by the reporter across all projects
+procmt,802.4992620944977,Number of commits to the project
+automated_readability_index,771.310408115387,Automated readability index score
+commentissuejaccard_sim_mean,760.8727097511292,Mean Jaccard similarity between candidate's comments and issues
+cmtcos_mean,760.5468702316284,Mean cosine similarity between candidate's commits
+clspronum,756.3654627799988,Number of projects the candidate contributed to
+commentissuecos_sim,747.9656481742859,Cosine similarity between candidate's comments and the issue
+pro_gfi_num,745.5297603607178,Number of good first issues in the project
+LengthOfTitle,732.79580950737,Length of the issue title
+readmecos_sim_mean,725.2047390937805,Mean cosine similarity between readme and issues
+solvedisscos_mean,673.2206888198853,Mean cosine similarity among issues solved by the candidate
+contributornum,653.5465703010559,Number of contributors to the project
+rpt_max_stars_issue,645.7146244049072,Maximum stars of repositories where the reporter created issues
+isscos_mean,623.7643623352051,Mean cosine similarity among issues
+commentissuejaccard_sim,607.5227808952332,Jaccard similarity between candidate's comments and the issue
+prcos_mean,552.3884994983673,Mean cosine similarity among pull requests
+crtclsissnum,531.7376389503479,Number of critical issues solved by the candidate
+procos_sim,530.4524080753326,Cosine similarity of project features
+issjaccard_sim,528.100507736206,Jaccard similarity between issues
+solvedissjaccard_sim,517.9254655838013,Jaccard similarity between solved issues
+NumOfUrls,517.8023767471313,Number of URLs in the issue description
+prjaccard_sim_mean,515.162015914917,Mean Jaccard similarity among pull requests
+isscos_sim,472.81608605384827,Cosine similarity between issues
+solvedisscos_sim,444.84679222106934,Cosine similarity between solved issues
+prcos_sim,413.39940071105957,Cosine similarity between pull requests
+prjaccard_sim,404.5716481208801,Jaccard similarity between pull requests
+readmecos_sim,400.5346417427063,Cosine similarity between readme and the issue
+NumOfCode,385.7375168800354,Number of code blocks in the issue description
+cmtjaccard_sim_mean,384.067862033844,Mean Jaccard similarity among commits
+clsprsenmean,373.3117356300354,Mean sentiment score in the candidate's pull requests
+procos_mean,372.33601474761963,Mean cosine similarity of project features
+solvedissjaccard_sim_mean,367.2808403968811,Mean Jaccard similarity among issues solved by the candidate
+clsissuesenmedian,344.1112198829651,Median sentiment score in the candidate's issues
+cmtcos_sim,326.2192225456238,Cosine similarity between commits
+cmtjaccard_sim,314.1194176673889,Jaccard similarity between commits
+projaccard_mean,308.3259496688843,Mean Jaccard similarity of project features
+clsissuesenmean,274.03521180152893,Mean sentiment score in the candidate's issues
+clsonemonth_cmt,217.43221950531006,Candidate's number of commits in the last month
+clsprsenmedian,200.4211015701294,Median sentiment score in the candidate's pull requests
+clstwomonth_cmt,186.5781388282776,Candidate's number of commits in the last two months
+lan_sim,155.40759134292603,Language similarity between the candidate's expertise and the issue
+clstwomonth_iss,146.70065116882324,Candidate's number of issues in the last two months
+labelnum,145.8408613204956,Number of labels on the issue
+projaccard_sim,142.7473382949829,Jaccard similarity of project features
+prreviewcos_sim,142.72590160369873,Cosine similarity between pull request reviews
+clstwomonth_pr,130.19823741912842,Candidate's number of pull requests in the last two months
+clsthreemonth_cmt,125.51133823394775,Candidate's number of commits in the last three months
+ownerpr,119.96570920944214,Number of pull requests made by the repository owner
+prreviewcos_sim_mean,116.9593997001648,Mean cosine similarity among pull request reviews
+prreviewjaccard_sim_mean,109.54137182235718,Mean Jaccard similarity among pull request reviews
+prostopic_ratio,107.79058837890625,Ratio of topics in the project
+prreviewjaccard_sim,107.30430030822754,Jaccard similarity between pull request reviews
+solvedissuelabel_ratio,105.05149841308594,Ratio of labels in issues solved by the candidate
+clsonemonth_pr,99.2938985824585,Candidate's number of pull requests in the last month
+solvedissuelabel_sum,79.22039985656738,Sum of labels in issues solved by the candidate
+clsonemonth_iss,75.04120063781738,Candidate's number of issues in the last month
+clsthreemonth_pr,73.37277936935425,Candidate's number of pull requests in the last three months
+NumOfPics,67.44988107681274,Number of pictures in the issue description
+clsthreemonth_iss,57.778029918670654,Candidate's number of issues in the last three months
+issuelabel_ratio,56.61815071105957,Ratio of labels in the issue
+commentissuelabel_ratio,40.97923040390015,Ratio of labels in the candidate's comments on issues
+clsallprreview,40.47942018508911,Total number of pull request reviews made by the candidate
+buglabelnum,40.09588980674744,Number of "bug" labels on the issue
+prostopic_sum,38.527729511260986,Sum of topics in the project
+doclabelnum,36.83600044250488,Number of "documentation" labels on the issue
+majorlabelnum,35.00380039215088,Number of "major" labels on the issue
+clsallpr,28.21909999847412,Total number of pull requests made by the candidate
+enhancelabelnum,27.12380027770996,Number of "enhancement" labels on the issue
+commentissuelabel_sum,25.544750213623047,Sum of labels in the candidate's comments on issues
+clsalliss,21.286629676818848,Total number of issues opened by the candidate
+triagedlabelnum,21.079559326171875,Number of "triaged" labels on the issue
+mediumlabelnum,15.083399772644043,Number of "medium" labels on the issue
+testlabelnum,14.926899909973145,Number of "test" labels on the issue
+prlabel_sum,4.9115400314331055,Sum of labels in the pull request
+prlabel_ratio,4.760519981384277,Ratio of labels in the pull request
+codinglabelnum,0.0,Number of "coding" labels on the issue
+owner_gfi_ratio,0.0,Ratio of good first issues created by the repository owner
+owner_max_stars_review,0.0,Maximum stars of repositories where the owner reviewed pull requests
+owner_max_stars_pull,0.0,Maximum stars of repositories where the owner made pull requests
+owner_max_stars_issue,0.0,Maximum stars of repositories where the owner created issues
+owner_max_stars_commit,0.0,Maximum stars of repositories where the owner made commits
+owner_reviews_num_all,0.0,Total number of pull request reviews made by the owner
+ownerallpr,0.0,Total number of pull requests made by the owner
+owneralliss,0.0,Total number of issues opened by the owner
+ownerallcmt,0.0,Total number of commits made by the owner
+ownerpronum,0.0,Number of projects the owner contributed to
+untriagedlabelnum,0.0,Number of "untriaged" labels on the issue
+owneriss,0.0,Number of issues opened by the repository owner
+ownercmt,0.0,Number of commits made by the repository owner
+buildlabelnum,0.0,Number of "build" labels on the issue
+rptisnew,0.0,Whether the reporter is new to the project
+rpt_max_stars_review,0.0,Maximum stars of repositories where the reporter reviewed pull requests
+rpt_max_stars_pull,0.0,Maximum stars of repositories where the reporter made pull requests
+featurelabelnum,0.0,Number of "feature" labels on the issue
+readmejaccard_sim,0.0,Jaccard similarity between readme and the issue
+rpt_reviews_num_all,0.0,Total number of pull request reviews made by the reporter
+rptallpr,0.0,Total number of pull requests made by the reporter
+readmejaccard_sim_mean,0.0,Mean Jaccard similarity between readme and issues
+issuelabel_sum,0.0,Sum of labels in the issue
+owner_gfi_num,0.0,Number of good first issues created by the repository owner

@@ -1,0 +1,11 @@
+Feature,Importance
+readmecos_sim_mean,1919.5193573236465
+procos_mean,1741.5566128492355
+readmecos_sim,1571.9015316963196
+procos_sim,1510.505313038826
+projaccard_mean,1128.53283649683
+projaccard_sim,1112.254633486271
+prostopic_sum,202.76642036437988
+prostopic_ratio,139.01161229610443
+readmejaccard_sim_mean,0.0
+readmejaccard_sim,0.0
